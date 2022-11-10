@@ -43,7 +43,7 @@ const HouseContextProvider = ({ children }) => {
     return str.split(' ').includes('(any)');
   };
   const handleSearch = (searchText) => {
-     const searchItems = houses.filter((house) => {
+     const searchItems = housesData.filter((house) => {
       if (house.country.toLowerCase().includes(searchText.toLowerCase()) || house.type.toLowerCase().includes(searchText.toLowerCase())) {
         return house;
       }
@@ -64,11 +64,11 @@ const HouseContextProvider = ({ children }) => {
     const selectedDate = new Date(date);
 
     // Filter Property
-    const filterHousesAsProperty = !isDefault(property) ? houses.filter((house) => {
+    const filterHousesAsProperty = !isDefault(property) ? housesData.filter((house) => {
       if (house.type === property) {
         return house;
       }
-    }) : houses;
+    }) : housesData;
 
     // Filter Country
     const filterHousesAsCountry = !isDefault(country) ? filterHousesAsProperty.filter((house) => {
