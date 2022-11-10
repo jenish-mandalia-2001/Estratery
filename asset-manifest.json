@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Estratery/static/css/main.c90b715f.css",
-    "main.js": "/Estratery/static/js/main.f1bd3490.js",
+    "main.js": "/Estratery/static/js/main.9eeaff14.js",
     "static/media/house6.png": "/Estratery/static/media/house6.332f48fd084c586060bd.png",
     "static/media/house2.png": "/Estratery/static/media/house2.cc6c0e715b5d285551e4.png",
     "static/media/house5.png": "/Estratery/static/media/house5.dd8283b8cf3bef96c828.png",
@@ -17,10 +17,10 @@
     "static/media/logo.svg": "/Estratery/static/media/logo.ca119a1d2eb37f73cab0e512cb03e4ed.svg",
     "index.html": "/Estratery/index.html",
     "main.c90b715f.css.map": "/Estratery/static/css/main.c90b715f.css.map",
-    "main.f1bd3490.js.map": "/Estratery/static/js/main.f1bd3490.js.map"
+    "main.9eeaff14.js.map": "/Estratery/static/js/main.9eeaff14.js.map"
   },
   "entrypoints": [
     "static/css/main.c90b715f.css",
-    "static/js/main.f1bd3490.js"
+    "static/js/main.9eeaff14.js"
   ]
 }
