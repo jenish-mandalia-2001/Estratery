@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Estratery/static/css/main.c90b715f.css",
+    "main.js": "/Estratery/static/js/main.e106e4d6.js",
+    "static/media/house6.png": "/Estratery/static/media/house6.332f48fd084c586060bd.png",
+    "static/media/house2.png": "/Estratery/static/media/house2.cc6c0e715b5d285551e4.png",
+    "static/media/house5.png": "/Estratery/static/media/house5.dd8283b8cf3bef96c828.png",
+    "static/media/house3.png": "/Estratery/static/media/house3.5c6d5f833bda788aeb51.png",
+    "static/media/apt6.png": "/Estratery/static/media/apt6.60baabc69ac78279f4b5.png",
+    "static/media/house4.png": "/Estratery/static/media/house4.b60d7772d782fd596066.png",
+    "static/media/apt4.png": "/Estratery/static/media/apt4.2b78242d39c0752afd6c.png",
+    "static/media/house1.png": "/Estratery/static/media/house1.d6af3c81ea0dbdcac2ad.png",
+    "static/media/apt5.png": "/Estratery/static/media/apt5.d5effceb97e5b9ee6461.png",
+    "static/media/apt2.png": "/Estratery/static/media/apt2.21fc1b2ae7c863171b6b.png",
+    "static/media/apt1.png": "/Estratery/static/media/apt1.c45ed3bad1d4958220fc.png",
+    "static/media/apt3.png": "/Estratery/static/media/apt3.89b663e8b08fc0a3cb69.png",
+    "static/media/logo.svg": "/Estratery/static/media/logo.ca119a1d2eb37f73cab0e512cb03e4ed.svg",
+    "index.html": "/Estratery/index.html",
+    "main.c90b715f.css.map": "/Estratery/static/css/main.c90b715f.css.map",
+    "main.e106e4d6.js.map": "/Estratery/static/js/main.e106e4d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90b715f.css",
+    "static/js/main.e106e4d6.js"
+  ]
+}
