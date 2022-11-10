@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-gray-200;
+  }
+  .dropdown {
+    @apply w-full lg:max-w-[296px] cursor-pointer;
+  }
+  .dropdown-btn {
+    @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+  }
+  .dropdown-icon-primary {
+    @apply text-2xl mr-[18px] text-violet-700;
+  }
+  .dropdown-icon-secondary {
+    @apply text-2xl text-violet-700 ml-auto;
+  }
+  .dropdown-menu {
+    @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
+  }
+}
+
+.houseinner{
+  border-radius: 10px;
+}
+.price{
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+.price .heartIcon{
+  padding: 8px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+}
+.price .heartIcon svg{
+  fill: #666666;
+}
+.houseAddress{
+  border-bottom: 1px solid #999999;
+  padding-bottom: 10px;
+}
+.price div p{
+  font-weight: 400;
+}
+.houseSpecification div span{
+  font-size: 14px;
+}
+.houseSpecification{
+  justify-content: space-between;
+}
+.houseSpecification div svg{
+  fill: rgb(91 33 182);
+}
+.MoveInData{
+  position: relative;
+}
+.MoveInData .datepicker{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.calendarIcon{
+  position: relative;
+  z-index: 10;
+}
+.tagLine{
+  justify-content: space-between;
+  padding: 40px 0px 60px;
+}
+.tagLine .searchField input{
+  padding: 10px;
+  border-radius: 7px;
+}
+.tagLine .searchField input::placeholder{
+  color: #999999;
+}
+.tagLine .searchField{
+  position: relative;
+}
+.searchField .searchIcon{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.searchField .searchIcon svg{
+  color: #999999;
+}
+header .menu{
+  justify-content: center;
+  padding-left: 30px;
+}
+header .menu li{
+  padding: 5px 10px;
+  margin: 5px 15px;
+  display: flex;
+  align-items: center;
+  transition:  all .3s ease;
+  cursor: pointer;
+}
+header .menu li:hover,
+header .menu li.active{
+  background-color: rgba(0, 0, 255, 0.1);
+  color: rgb(91 33 182);
+}
+header .menu li span{
+  vertical-align: middle;
+  display: inline-block;
+  /* padding-left: 5px; */
+  /* margin-top: 5px; */
+}
+.loginbtn{
+  border: 1px solid #999999;
+  padding: 10px 20px;
+}
+.filterbtn{
+  position: relative;
+  border: unset;
+}
+.filterbtn::before{
+  content: '';
+  background-color: #999999;
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+.filterTagLine{
+  color: #666666;
+}
