@@ -1,0 +1,1 @@
+Assignment for search rent properties

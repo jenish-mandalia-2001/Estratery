@@ -16,7 +16,7 @@ const House = ({ house }) => {
         </div>
       </div>
       <div className='text-lg font-semibold text-black-600 mb-2'>
-        {house.agent.name}
+        {house.name}
       </div>
       <div className='text-sm text-gray-600 houseAddress flex items-center'>{house.address}</div>
       <div className='flex gap-x-4 mt-2 mb-0 houseSpecification'>
